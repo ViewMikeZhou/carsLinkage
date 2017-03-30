@@ -1,4 +1,4 @@
-package qc.hengda.com.myapplication.bean;
+package qc.hengda.com.myapplication;
 
 import java.util.List;
 

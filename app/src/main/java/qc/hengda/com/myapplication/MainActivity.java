@@ -24,6 +24,7 @@ import okhttp3.Callback;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
+import qc.hengda.com.myapplication.bean.CarInfo;
 
 public class MainActivity extends AppCompatActivity {
     public static final int SUCCESS = 1;
@@ -132,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onOptionsSelect(int options1, int option2, int options3, View v) {
                     //返回的分别是三个级别的选中位置
 
-                    Toast.makeText(MainActivity.this, "您选择了" + fatherName.get(options1) + "--" + childName.get(options1).get(option2) , Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "您选择了" + fatherName.get(options1) + "--" + childName.get(options1).get(option2), Toast.LENGTH_SHORT).show();
                 }
             }).build();
 
